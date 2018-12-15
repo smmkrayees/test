@@ -4,6 +4,22 @@
    <name>testOrganic</name>
    <tag></tag>
    <UUID>c0d3ab13-b7c0-4e02-9d73-8594d87b8d45</UUID>
-   <migratedVersion>5.4.0</migratedVersion>
+   <migratedVersion>5.7.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <type>GENERIC</type>
 </Project>
