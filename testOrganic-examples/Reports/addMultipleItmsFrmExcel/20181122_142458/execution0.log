@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-22T14:25:08</date>
+  <millis>1542860708570</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/addMultipleItmsFrmExcel</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">addMultipleItmsFrmExcel</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/addMultipleItmsFrmExcel</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:08</date>
+  <millis>1542860708694</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;n9523766 - SEF-PA00122359.qut.edu.au&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">n9523766 - SEF-PA00122359.qut.edu.au</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:08</date>
+  <millis>1542860708696</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:08</date>
+  <millis>1542860708697</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.43.101&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.43.101</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:08</date>
+  <millis>1542860708698</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.6.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.6.0.1</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:11</date>
+  <millis>1542860711377</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/addItem</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/addItem</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/addItem</property>
+  <property name="source">H:\\git\\testOrganic\\Test Cases\\addItem.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:11</date>
+  <millis>1542860711489</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:12</date>
+  <millis>1542860712388</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;name&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:12</date>
+  <millis>1542860712463</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;category&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:12</date>
+  <millis>1542860712536</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;supplier&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:16</date>
+  <millis>1542860716756</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:16</date>
+  <millis>1542860716845</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719308</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719339</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719450</millis>
+  <sequence>14</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot take screenshot</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719537</millis>
+  <sequence>15</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SEF-PA00122359&amp;apos;, ip: &amp;apos;192.168.43.101&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719540</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719541</millis>
+  <sequence>17</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/addItem FAILED because (of) Unable to click on object &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SEF-PA00122359&amp;apos;, ip: &amp;apos;192.168.43.101&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_organic - Stock Registration/a_  New' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SEF-PA00122359', ip: '192.168.43.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>125</line>
+    </frame>
+    <frame>
+      <class>Script1542860283810</class>
+      <method>run</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>256</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>131</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1542860698864</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719550</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/addItem</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719594</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/addItem</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/addItem</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/addItem</property>
+  <property name="source">H:\\git\\testOrganic\\Test Cases\\addItem.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719637</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719752</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;name&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719846</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;category&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719932</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;supplier&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719952</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719952</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719982</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719983</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719984</millis>
+  <sequence>28</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot take screenshot</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719986</millis>
+  <sequence>29</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SEF-PA00122359&amp;apos;, ip: &amp;apos;192.168.43.101&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719987</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719988</millis>
+  <sequence>31</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/addItem FAILED because (of) Unable to click on object &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SEF-PA00122359&amp;apos;, ip: &amp;apos;192.168.43.101&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_organic - Stock Registration/a_  New' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SEF-PA00122359', ip: '192.168.43.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Script1542860283810</class>
+      <method>run</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>256</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>131</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1542860698864</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:19</date>
+  <millis>1542860719996</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/addItem</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720026</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/addItem</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/addItem</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/addItem</property>
+  <property name="source">H:\\git\\testOrganic\\Test Cases\\addItem.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720057</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720178</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;name&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720265</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;category&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720376</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;supplier&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720398</millis>
+  <sequence>38</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720401</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720440</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720443</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720452</millis>
+  <sequence>42</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Cannot take screenshot</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720453</millis>
+  <sequence>43</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to click on object &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SEF-PA00122359&amp;apos;, ip: &amp;apos;192.168.43.101&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720454</millis>
+  <sequence>44</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720455</millis>
+  <sequence>45</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/addItem FAILED because (of) Unable to click on object &amp;apos;Object Repository/Page_organic - Stock Registration/a_  New&amp;apos; (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;SEF-PA00122359&amp;apos;, ip: &amp;apos;192.168.43.101&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: driver.version: unknown)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_organic - Stock Registration/a_  New' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SEF-PA00122359', ip: '192.168.43.101', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>click</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.ClickKeyword</class>
+      <method>execute</method>
+      <line>67</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>click</method>
+      <line>616</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Script1542860283810</class>
+      <method>run</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>256</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>131</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1542860698864</class>
+      <method>run</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720463</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/addItem</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:25:20</date>
+  <millis>1542860720934</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/addMultipleItmsFrmExcel</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

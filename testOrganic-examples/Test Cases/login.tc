@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98d4c6f2-d129-49d8-8d79-85ddd28d652a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>859c5cde-570f-49c6-bcda-b852fa8481b9</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e3cf65b-75e3-435d-a3e5-2f28fa0335d1</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>35ab0251-c608-4888-938a-3c4717e184bb</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-22T14:26:52</date>
+  <millis>1542860812711</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/addMultipleItmsFrmExcel</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">addMultipleItmsFrmExcel</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/addMultipleItmsFrmExcel</property>
+</record>
+<record>
+  <date>2018-11-22T14:26:52</date>
+  <millis>1542860812841</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;n9523766 - SEF-PA00122359.qut.edu.au&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">n9523766 - SEF-PA00122359.qut.edu.au</property>
+</record>
+<record>
+  <date>2018-11-22T14:26:52</date>
+  <millis>1542860812843</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-11-22T14:26:52</date>
+  <millis>1542860812843</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.43.101&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.43.101</property>
+</record>
+<record>
+  <date>2018-11-22T14:26:52</date>
+  <millis>1542860812844</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.6.0.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.6.0.1</property>
+</record>
+<record>
+  <date>2018-11-22T14:26:56</date>
+  <millis>1542860816393</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/addItem</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/addItem</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/addItem</property>
+  <property name="source">H:\\git\\testOrganic\\Test Cases\\addItem.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-22T14:26:56</date>
+  <millis>1542860816560</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:26:57</date>
+  <millis>1542860817575</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;name&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:26:57</date>
+  <millis>1542860817650</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;category&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-22T14:26:57</date>
+  <millis>1542860817727</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;supplier&amp;apos; is set to  as default</message>
+  <nestedLevel>1</nestedLevel>
+</record>
