@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>addItem</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a119d774-620f-4a61-8f9e-4f098ec392b9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b96edcf-c5df-4321-b7f6-db27774a68e9</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c06561e-df29-46b2-b817-5f4ddf5e50a5</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b6d0ca6-2d79-4da7-a199-8d986486f852</id>
+      <masked>false</masked>
+      <name>supplier</name>
+   </variable>
+</TestCaseEntity>

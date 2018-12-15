@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+addMultipleItmsFrmExcel,,,2018-11-22 14:25:08,2018-11-22 14:25:20,12.364s,FAILED
+,,,,,,
+Test Cases/addItem,,,2018-11-22 14:25:11,2018-11-22 14:25:19,8.173s,FAILED
+click,,,2018-11-22 14:25:16,2018-11-22 14:25:19,2.784s,FAILED
+,,,,,,
+Test Cases/addItem,,,2018-11-22 14:25:19,2018-11-22 14:25:19,0.402s,FAILED
+click,,,2018-11-22 14:25:19,2018-11-22 14:25:19,0.035s,FAILED
+,,,,,,
+Test Cases/addItem,,,2018-11-22 14:25:20,2018-11-22 14:25:20,0.437s,FAILED
+click,,,2018-11-22 14:25:20,2018-11-22 14:25:20,0.056s,FAILED

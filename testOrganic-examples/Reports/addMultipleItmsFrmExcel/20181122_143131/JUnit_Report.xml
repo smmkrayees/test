@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="addMultipleItmsFrmExcel" time="136" tests="2" failures="1" errors="0">
+   <testsuite name="addMultipleItmsFrmExcel" tests="2" failures="1" errors="0" time="136" timestamp="2018-11-22 14:31:40" hostname="n9523766 - SEF-PA00122359.qut.edu.au" id="Test Suites/addMultipleItmsFrmExcel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="H:\\git\\testOrganic\\Reports\\addMultipleItmsFrmExcel\\20181122_143131"/>
+         <property name="logFiles" value="H:\\git\\testOrganic\\Reports\\addMultipleItmsFrmExcel\\20181122_143131\\execution0.log"/>
+         <property name="attachments" value="H:\\git\\testOrganic\\Reports\\addMultipleItmsFrmExcel\\20181122_143131\\1542861236294.png"/>
+         <property name="hostName" value="n9523766 - SEF-PA00122359.qut.edu.au"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.43.101"/>
+         <property name="sessionId" value="ed2eb879e5394276c0bd85747745a2c6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:31:43 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-11-22 14:31:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-22 14:31:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-22 14:31:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mie.zapto.org:8080/organic/spring_security_login;jsessionid=4283904779A75635F1D16666F08B7643' successfully
+
+2018-11-22 14:31:59 - [MESSAGE][PASSED] - Navigate to 'http://mie.zapto.org:8080/organic/spring_security_login;jsessionid=4283904779A75635F1D16666F08B7643' successfully
+
+2018-11-22 14:31:59 - [TEST_STEP][PASSED] - setText: Text 'boss.organic' is set on object 'Object Repository/Page_Login Page/input_j_username'
+
+2018-11-22 14:32:00 - [MESSAGE][PASSED] - Text 'boss.organic' is set on object 'Object Repository/Page_Login Page/input_j_username'
+
+2018-11-22 14:32:00 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Login Page/input_j_password'
+
+2018-11-22 14:32:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Login Page/input_j_password'
+
+2018-11-22 14:32:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login Page/input_submit' is clicked on
+
+2018-11-22 14:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login Page/input_submit' is clicked on
+
+2018-11-22 14:33:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://mie.zapto.org:8080/organic/modules/Item' successfully
+
+2018-11-22 14:33:17 - [MESSAGE][PASSED] - Navigate to 'http://mie.zapto.org:8080/organic/modules/Item' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/addItem" classname="Test Cases/addItem" status="PASSED">
+         <system-out><![CDATA[2018-11-22 14:33:17 - [TEST_CASE][PASSED] - Test Cases/addItem: Test Cases/addItem
+
+2018-11-22 14:33:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_organic - Stock Registration/a_  New' is clicked on
+
+2018-11-22 14:33:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_organic - Stock Registration/a_  New' is clicked on
+
+2018-11-22 14:33:20 - [TEST_STEP][PASSED] - setText: Text 'MOUSE' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__itemNam'
+
+2018-11-22 14:33:21 - [MESSAGE][PASSED] - Text 'MOUSE' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__itemNam'
+
+2018-11-22 14:33:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_organic - Stock Registration/select_BOTTLES LANKA (PVT) LTD'  using regular expression
+
+2018-11-22 14:33:21 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_organic - Stock Registration/select_BOTTLES LANKA (PVT) LTD'  using regular expression
+
+2018-11-22 14:33:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '12' are selected in object 'Object Repository/Page_organic - Stock Registration/select_05 GallonDispenserNew B'  using regular expression
+
+2018-11-22 14:33:22 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Page_organic - Stock Registration/select_05 GallonDispenserNew B'  using regular expression
+
+2018-11-22 14:33:22 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__disc'
+
+2018-11-22 14:33:22 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__disc'
+
+2018-11-22 14:33:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_organic - Stock Registration/a_  Save' is clicked on
+
+2018-11-22 14:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_organic - Stock Registration/a_  Save' is clicked on
+
+2018-11-22 14:33:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' is clicked on
+
+2018-11-22 14:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/addItem" classname="Test Cases/addItem" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)"/>
+         <system-out><![CDATA[2018-11-22 14:33:23 - [TEST_CASE][FAILED] - Test Cases/addItem: Test Cases/addItem FAILED because (of) Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)
+
+2018-11-22 14:33:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_organic - Stock Registration/a_  New' is clicked on
+
+2018-11-22 14:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_organic - Stock Registration/a_  New' is clicked on
+
+2018-11-22 14:33:23 - [TEST_STEP][PASSED] - setText: Text 'PURSE' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__itemNam'
+
+2018-11-22 14:33:23 - [MESSAGE][PASSED] - Text 'PURSE' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__itemNam'
+
+2018-11-22 14:33:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/Page_organic - Stock Registration/select_BOTTLES LANKA (PVT) LTD'  using regular expression
+
+2018-11-22 14:33:23 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Page_organic - Stock Registration/select_BOTTLES LANKA (PVT) LTD'  using regular expression
+
+2018-11-22 14:33:23 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '12' are selected in object 'Object Repository/Page_organic - Stock Registration/select_05 GallonDispenserNew B'  using regular expression
+
+2018-11-22 14:33:24 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/Page_organic - Stock Registration/select_05 GallonDispenserNew B'  using regular expression
+
+2018-11-22 14:33:24 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__disc'
+
+2018-11-22 14:33:24 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Page_organic - Stock Registration/input_ox_organic_Item__disc'
+
+2018-11-22 14:33:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_organic - Stock Registration/a_  Save' is clicked on
+
+2018-11-22 14:33:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_organic - Stock Registration/a_  Save' is clicked on
+
+2018-11-22 14:33:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)
+
+2018-11-22 14:33:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)
+[[ATTACHMENT|H:\\git\\testOrganic\\Reports\\addMultipleItmsFrmExcel\\20181122_143131\\1542861236294.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-22 14:33:23 - [TEST_CASE][FAILED] - Test Cases/addItem: Test Cases/addItem FAILED because (of) Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-22 14:31:40 - [TEST_SUITE][FAILED] - addMultipleItmsFrmExcel: Test Cases/addItem FAILED because (of) Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-11-22 14:31:40 - [TEST_SUITE][FAILED] - addMultipleItmsFrmExcel: Test Cases/addItem FAILED because (of) Unable to click on object 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_organic - Stock Registration/td_Stock Registration created' located by 'By.xpath: //td[(text() = '
+
+Stock Registration created successfully
+
+' or . = '
+
+Stock Registration created successfully
+
+')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
