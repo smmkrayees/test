@@ -4,7 +4,7 @@
    <name>addMultipleItmsFrmExcel</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T14:31:31</lastRun>
+   <lastRun>2018-12-19T11:44:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -47,7 +47,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/stockItems</testDataId>
+         <testDataId>Data Files/addMultipleItmsFrmExcel</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>70a3838c-dfcc-4f09-a2d0-135cebe02bc8</testDataLinkId>
